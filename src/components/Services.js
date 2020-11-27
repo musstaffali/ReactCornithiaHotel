@@ -1,38 +1,38 @@
 import React, { Component } from "react";
-import { FaWater, FaCity, FaShuttleVan, FaWifi, FaAppleAlt} from "react-icons/fa";
+import { FaFish, FaCity, FaShip, FaWifi, FaAppleAlt} from "react-icons/fa";
 import Title from "./Title";
 export default class Services extends Component {
   state = {
     services: [
       {
-        icon: <FaWater />,
-        title: "Free ZamZam Water",
+        icon: <FaFish />,
+        title: "Fresh caught seafood from the Nile.",
         info:
-          "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias molestias eius libero?"
+          "Fresh wild lobsters and fish caught every morning and evening by deepsea divers and fisherman on the outskirts of the city and shipped to our kitchen twice a day."
       },
       {
         icon: <FaCity />,
         title: "Tour guide",
         info:
-          "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias molestias eius libero?"
+          "We offer group tour guides or executive luxury private tours for our highend guests."
       },
       {
-        icon: <FaShuttleVan />,
-        title: "Free Shuttle to Kabbah",
+        icon: <FaShip />,
+        title: "Free unlimited boat rides on the Nile. ",
         info:
-          "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias molestias eius libero?"
+          "If your ever by Nile street come stop by Cornithias very own floating restaurants by the Nile providing free rides to our guests."
       },
       {
         icon: <FaAppleAlt />,
         title: "Fresh picked Fruits & dates",
         info:
-          "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias molestias eius libero?"
+          "Fresh grown fruits and vegetables grown at our own garden."
       },
       {
         icon: <FaWifi />,
         title: "Free Wifi",
         info:
-          "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias molestias eius libero?"
+          "Complimentary free 5g Wi-Fi for our guests."
       }
     ]
   };
