@@ -166,7 +166,7 @@ h6 {
   justify-content: center;
 }
 .roomsHero {
-  background-image: url("./images/room-2.jpeg");
+  background-image: url("./images/nile.jpeg");
   min-height: 60vh;
 }
 /* End of Hero */
@@ -439,6 +439,7 @@ h6 {
 /* roomlist */
 .roomslist {
   padding: 5rem 0;
+  background-color: lightpink;
 }
 .roomslist-center {
   width: 80vw;
@@ -484,6 +485,7 @@ h6 {
 .form-control {
   width: 100%;
   background: transparent;
+  background-color: lightpink;
   font-size: 1rem;
 }
 .size-inputs {
@@ -493,11 +495,13 @@ h6 {
   width: 40%;
   padding: 0.2rem;
   border: 1px solid var(--mainBlack);
+  background-color: lightpink;
   border-radius: 0.3rem;
   margin-right: 0.3rem;
 }
 .single-extra label {
   display: inline-block;
+  background-color: lightpink;
   font-size: 0.8rem;
   margin-left: 0.5rem;
 }
@@ -509,6 +513,7 @@ h6 {
 @media screen and (min-width: 992px) {
   .filter-form {
     width: 95vw;
+    background-color: rgb(172, 174, 177);
     max-width: 1170px;
   }
 }

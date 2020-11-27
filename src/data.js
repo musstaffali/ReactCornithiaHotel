@@ -3,6 +3,16 @@ import room2 from "./images/details-2.jpeg";
 import room3 from "./images/details-3.jpeg";
 import room4 from "./images/details-4.jpeg";
 import makkah from "./images/makkah.jpeg";
+import presidential3 from "./images/presidential3.jpg";
+import presidential2 from "./images/presidential2.jpeg";
+import ministry from "./images/ministry.jpeg"
+import ministry2 from "./images/ministry2.jpeg"
+import exu from "./images/exu.jpeg"
+import exu2 from "./images/exu2.jpeg"
+import executive from "./images/executive.jpeg"
+import executive2 from "./images/executive2.jpeg"
+import delux from "./images/delux.jpeg"
+import delux2 from "./images/delux2.jpeg"
 
 export default [
   {
@@ -34,21 +44,21 @@ export default [
         {
           fields: {
             file: {
-              url: makkah
+              url: delux
             }
           }
         },
         {
           fields: {
             file: {
-              url: room2
+              url: delux
             }
           }
         },
         {
           fields: {
             file: {
-              url: room3
+              url: delux2
             }
           }
         },
@@ -92,21 +102,21 @@ export default [
         {
           fields: {
             file: {
-              url: makkah
+              url: executive
             }
           }
         },
         {
           fields: {
             file: {
-              url: room2
+              url: executive2
             }
           }
         },
         {
           fields: {
             file: {
-              url: room3
+              url: executive
             }
           }
         },
@@ -149,21 +159,21 @@ export default [
         {
           fields: {
             file: {
-              url: makkah
+              url: exu
             }
           }
         },
         {
           fields: {
             file: {
-              url: room2
+              url: exu
             }
           }
         },
         {
           fields: {
             file: {
-              url: room3
+              url: exu2
             }
           }
         },
@@ -208,21 +218,21 @@ export default [
         {
           fields: {
             file: {
-              url: makkah
+              url: ministry2
             }
           }
         },
         {
           fields: {
             file: {
-              url: room2
+              url: ministry
             }
           }
         },
         {
           fields: {
             file: {
-              url: room3
+              url: ministry2
             }
           }
         },
@@ -251,7 +261,7 @@ export default [
       breakfast: true,
       featured: true,
       description:
-        "When only the best will do, the finest suite in the entire hotel is waiting. A residence like no other, where space is in no short supply. Twin sinks, a massage shower and a Jacuzzi bath populate the vast marble-clad bathroom and the living space is home to a table for decadent dining table and lounge area for sublime relaxation. Time is occupied by the imposing panorama at the window or a venture to the Executive Club Lounge for complimentary snacks. But your 24-butler is on hand, should you wish to do very little instead.",
+        "When only the best will do, the finest suite in the entire hotel is waiting. A residence like no other, where space is in no short supply.",
       extras: [
         "Nile View",
         "Two bedrooms",
@@ -267,7 +277,21 @@ export default [
         {
           fields: {
             file: {
-              url: makkah
+              url: presidential3
+            }
+          }
+        },
+        {
+          fields: {
+            file: {
+              url: presidential3
+            }
+          }
+        },
+        {
+          fields: {
+            file: {
+              url: presidential2
             }
           }
         },
@@ -275,20 +299,6 @@ export default [
           fields: {
             file: {
               url: room2
-            }
-          }
-        },
-        {
-          fields: {
-            file: {
-              url: room3
-            }
-          }
-        },
-        {
-          fields: {
-            file: {
-              url: room4
             }
           }
         }
