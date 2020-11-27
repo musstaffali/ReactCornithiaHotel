@@ -1,8 +1,6 @@
 
 import room2 from "./images/details-2.jpeg";
-import room3 from "./images/details-3.jpeg";
 import room4 from "./images/details-4.jpeg";
-import makkah from "./images/makkah.jpeg";
 import presidential3 from "./images/presidential3.jpg";
 import presidential2 from "./images/presidential2.jpeg";
 import ministry from "./images/ministry.jpeg"
