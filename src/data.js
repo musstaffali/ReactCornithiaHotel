@@ -259,7 +259,7 @@ export default [
       breakfast: true,
       featured: true,
       description:
-        "When only the best will do, the finest suite in the entire hotel is waiting. A residence like no other, where space is in no short supply.",
+        "When only the best will do, the finest suite in the entire hotel is waiting. A residence like no other, where space is in no short supply. Twin sinks, a massage shower and a Jacuzzi bath populate the vast marble-clad bathroom and the living space is home to a table for decadent dining table and lounge area for sublime relaxation. Time is occupied by the imposing panorama at the window or a venture to the Executive Club Lounge for complimentary snacks. But your 24-butler is on hand, should you wish to do very little instead.",
       extras: [
         "Nile View",
         "Two bedrooms",
